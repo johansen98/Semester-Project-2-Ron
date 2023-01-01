@@ -29,7 +29,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "sass --watch src/scss:dist/css & live-server",
-    "build": "sass src/sass:dist/css"
+    "build": "sass src/sass:dist/css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
