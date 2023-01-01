@@ -1,6 +1,6 @@
 const token = localStorage.getItem("token");
 if(token){
-    document.location = "/index.html";
+    document.location = "index.html";
 }
 
 function logIn(event) {
@@ -37,7 +37,7 @@ function onResult(result){
   localStorage.setItem("token", token);
   localStorage.setItem("email", result.email)
   localStorage.setItem("name", result.name)
-  document.location = "/index.html";
+  document.location = "index.html";
 
 }
 
