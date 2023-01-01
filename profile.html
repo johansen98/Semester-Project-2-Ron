@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <script defer src="/JS/core.js"></script>
+    <script defer src="/JS/profile.js"></script>
+    <title>The Auction House | Profile</title>
+  </head>
+  <body>
+    <div class="nav-container mt-2">
+      <nav
+        class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light"
+        id="ftco-navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">The Auction House</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#ftco-nav"
+            aria-controls="ftco-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fa fa-bars"></span> Menu
+          </button>
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto mr-md-3">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item"><a href="MyListings.html" class="nav-link">My Listings</a></li>
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">Log out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END nav -->
+    </div>
+    <div
+      class="container mt-4 mb-4 p-3 d-flex justify-content-center"
+      id="profileContainer"
+    >
+      <div class="card p-4">
+        <div
+          class="image d-flex flex-column justify-content-center align-items-center"
+        >
+          <button class="btn btn-secondary pic-frame">
+            <img
+              class="profile-pic"
+              src="/img/profiler pic.jpg"
+              height="100"
+              width="100"
+              id="profileImg"
+            />
+          </button>
+          <div class="d-flex mt-2">
+            <button class="btn1 btn-primary">Edit Image</button>
+          </div>
+          <span class="name mt-3" id="profileName">Eleanor Pena</span>
+          <div
+            class="d-flex flex-row justify-content-center align-items-center gap-2"
+          >
+          </div>
+          <div
+            class="d-flex flex-row justify-content-center align-items-center mt-3"
+          >
+            <span>Credits: <b id="credits"> </b></span
+            >
+          </div>
+          </div>
+          <div
+            class="gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center"
+          >
+            <span><i class="fa fa-twitter"></i></span>
+            <span><i class="fa fa-facebook-f"></i></span>
+            <span><i class="fa fa-instagram"></i></span>
+            <span><i class="fa fa-linkedin"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

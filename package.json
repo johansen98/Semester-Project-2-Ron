@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "name": "codecafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.54.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/sass:dist/css",
+    "watch": "sass --watch src/sass:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johansen98/CodeCafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johansen98/CodeCafe/issues"
+  },
+  "homepage": "https://github.com/johansen98/CodeCafe#readme",
+  "description": ""
+  
+}

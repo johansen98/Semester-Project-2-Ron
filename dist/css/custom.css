@@ -1,0 +1,36 @@
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  gap: 3vw;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.post-form {
+  margin-top: 2vh;
+  width: 45vw;
+  height: 40vh;
+}
+
+.g-4 {
+  margin-top: 1vh;
+  display: flex;
+  background-color: red;
+}
+
+.footer-image {
+  width: 2rem;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-right: 1vw;
+}
+
+/*# sourceMappingURL=custom.css.map */
