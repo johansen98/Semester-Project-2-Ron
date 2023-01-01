@@ -23,6 +23,7 @@
     "to-regex-range": "^5.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.57.1"
   },
   "scripts": {
