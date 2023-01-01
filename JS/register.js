@@ -1,6 +1,6 @@
 const token = localStorage.getItem("token");
 if(token){
-    document.location = "/index.html";
+    document.location = "index.html";
 }
 
 function signUp(event){
